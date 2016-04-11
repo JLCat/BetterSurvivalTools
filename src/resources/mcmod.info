@@ -1,0 +1,16 @@
+[
+{
+  "modid": "BSTools",
+  "name": "Better Survival Tools",
+  "description": "This mod adds some tools and armor into Minecraft",
+  "version": "1.2.1",
+  "mcversion": "1.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["JLCat"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,32 @@
+< en_US.lang - English localization File >
+
+itemGroup.tabBSTools=BSTools
+
+item.bluestone.name=Bluestone
+item.bluediamond.name=Bluediamond
+item.reinforced_stick.name=Reinforced Stick
+item.nether_essence.name=Nether Essence
+item.rope.name=Rope
+
+item.axe.name=Bluediamond Axe
+item.hoe.name=Bluediamond Hoe
+item.pickaxe.name=Bluediamond Pickaxe
+item.shovel.name=Bluediamond Shovel
+item.sword.name=Bluediamond Sword
+
+item.helmet.name=Bluediamond Helmet
+item.chestplate.name=Bluediamond Chestplate
+item.leggings.name=Bluediamond Leggings
+item.boots.name=Bluediamond Boots
+
+item.bag.name=Bag
+container.bag=Bag
+
+tooltip.not_upgraded=Not Upgraded
+tooltip.is_upgraded=Upgraded
+tooltip.owner=Owner
+tooltip.unbound=Unbound
+
+msg.mod=[BSTools] 
+msg.notyourbag=This is not your bag.
+msg.notboundyet=This bag is not bound yet.
