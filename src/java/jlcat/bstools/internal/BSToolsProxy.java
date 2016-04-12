@@ -2,9 +2,9 @@ package jlcat.bstools.internal;
 
 import jlcat.bstools.BSTools;
 import jlcat.bstools.common.BSToolsRecipe;
+import jlcat.bstools.eventhandler.AnvilHandler;
 import jlcat.bstools.gui.ModGuiHandler;
 import jlcat.bstools.item.ItemManager;
-import jlcat.bstools.item.equipment.AnvilHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -15,7 +15,7 @@ public class BSToolsProxy {
 
 	public void preInit(FMLPreInitializationEvent e) {
 		ItemManager.createItems();
-		MinecraftForge.EVENT_BUS.register(AnvilHandler.instance);
+		MinecraftForge.EVENT_BUS.register(AnvilHandler.getInstance());
 	}
 
 	public void init(FMLInitializationEvent e) {
@@ -24,6 +24,5 @@ public class BSToolsProxy {
 	}
 
 	public void postInit(FMLPostInitializationEvent e) {
-
 	}
 }

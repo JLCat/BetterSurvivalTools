@@ -11,6 +11,7 @@ import jlcat.bstools.item.equipment.ItemBetterShovel;
 import jlcat.bstools.item.equipment.ItemBetterSword;
 import jlcat.bstools.item.items.ItemBag;
 import jlcat.bstools.item.items.ItemBasicItems;
+import jlcat.bstools.item.items.ItemPlayerUpgrade;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 
@@ -39,6 +40,12 @@ public class ItemManager {
 		itemList.add(ItemBasicItems.instance("bluediamond"));
 		itemList.add(ItemBasicItems.instance("nether_essence"));
 		itemList.add(ItemBasicItems.instance("rope"));
+
+		// upgrades
+		itemList.add(ItemPlayerUpgrade.instance("time_upgrade"));
+		itemList.add(ItemPlayerUpgrade.instance("coordinates_upgrade"));
+		itemList.add(ItemPlayerUpgrade.instance("craft_upgrade"));
+		itemList.add(ItemPlayerUpgrade.instance("inventory_upgrade"));
 
 		// bag
 		itemList.add(ItemBag.instance());

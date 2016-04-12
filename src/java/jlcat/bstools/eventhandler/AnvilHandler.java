@@ -1,5 +1,6 @@
-package jlcat.bstools.item.equipment;
+package jlcat.bstools.eventhandler;
 
+import jlcat.bstools.item.equipment.IItemEquipment;
 import jlcat.bstools.item.items.ItemBasicItems;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
@@ -8,11 +9,17 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class AnvilHandler {
 
-	public static AnvilHandler instance = new AnvilHandler();
+	private static AnvilHandler instance = new AnvilHandler();
+
+	private AnvilHandler() {
+	}
+
+	public static AnvilHandler getInstance() {
+		return instance;
+	}
 
 	@SubscribeEvent
 	public void handleAnvilEvent(AnvilUpdateEvent evt) {
-
 		if (evt.getLeft() == null || evt.getRight() == null) {
 			return;
 		}

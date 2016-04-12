@@ -56,7 +56,7 @@ public class InventoryBag implements IInventory {
 
 	@Override
 	public int getSizeInventory() {
-		return 54;
+		return inventory.length;
 	}
 
 	@Override

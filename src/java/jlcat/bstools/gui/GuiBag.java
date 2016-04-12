@@ -40,6 +40,7 @@ public class GuiBag extends GuiContainer {
 	 * @param mouseY
 	 *            Mouse y coordinate
 	 */
+	@Override
 	protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
 		this.fontRendererObj.drawString(this.bagpackInventory.getDisplayName().getUnformattedText(), 8, 6, 4210752);
 		this.fontRendererObj.drawString(this.playerInventory.getDisplayName().getUnformattedText(), 8, this.ySize - 96 + 2, 4210752);
@@ -56,6 +57,7 @@ public class GuiBag extends GuiContainer {
 	 * @param mouseY
 	 *            Mouse y coordinate
 	 */
+	@Override
 	protected void drawGuiContainerBackgroundLayer(float partialTicks, int mouseX, int mouseY) {
 		GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
 		this.mc.getTextureManager().bindTexture(BAGPACK_GUI_TEXTURE);
